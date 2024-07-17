@@ -15,7 +15,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2000,
   delay: 200,
-  reset: true,
+  reset: false,
 });
 
 sr.reveal(".text", {delay:100, origin:"top"})
