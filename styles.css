@@ -123,10 +123,11 @@ nav ul a:hover::after {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, 1fr);
+    padding: 0 100px;
 }
 
 .text h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     letter-spacing: 2px;
 }
 
@@ -528,25 +529,3 @@ nav ul a:hover::after {
     }
 }
 
-@media (min-width: 600px) {
-    header {
-        padding: 4px 14px;
-    }
-    header img {
-        width: 30px;
-    }
-    section {
-        padding: 50px 14px;
-    }
-    .header-btn a:nth-child(2) {
-        padding: 7px 10px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-    .text h1 {
-        font-size: 2rem;
-    }
-    .services-container {
-        grid-template-columns: repeat(auto-fit, minmax(254px, auto));
-    }
-}
